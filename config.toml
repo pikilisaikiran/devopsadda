@@ -1,0 +1,30 @@
+baseURL = 'https://devopsadda.in/'
+languageCode = 'en-us'
+title = 'DevOps Adda'
+theme = 'PaperMod'
+
+[params]
+    defaultTheme = 'dark' # Options: light, dark, auto
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowCodeCopyButtons = true
+
+    # This activates the elegant profile landing page
+    [params.profileMode]
+        enabled = true
+        title = "DevOps Adda 🚀"
+        subtitle = "Your ultimate hub for Cloud, CI/CD, Automation, and all things DevOps. Stay tuned for highly detailed technical blogs, setups, and architecture breakdowns."
+        
+        # Add quick buttons to your social media
+
+        [[params.profileMode.buttons]]
+            name = "Follow on Medium"
+            url = "https://saikiranpikili.medium.com"
+
+        [[params.profileMode.buttons]]
+            name = "Follow on LinkedIn"
+            url = "https://linkedin.com/in/saikiranpikili"
+
+        [[params.profileMode.buttons]]
+            name = "My GitHub Profile"
+            url = "https://github.com/pikilisaikiran"
