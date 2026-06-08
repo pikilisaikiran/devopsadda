@@ -6,6 +6,98 @@
     <description>Recent content on DevOps Adda</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is DevOps? A Beginner&#39;s Guide</title>
+      <link>http://localhost:1313/posts/what-is-devops/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/what-is-devops/</guid>
+      <description>A plain-English introduction to DevOps culture, the delivery lifecycle, and why automation matters.</description>
+    </item>
+    <item>
+      <title>Linux Basics for DevOps</title>
+      <link>http://localhost:1313/posts/linux-basics-for-devops/</link>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/linux-basics-for-devops/</guid>
+      <description>A hands-on intro to the Linux command line for DevOps beginners.</description>
+    </item>
+    <item>
+      <title>Git &amp; GitHub Crash Course</title>
+      <link>http://localhost:1313/posts/git-github-crash-course/</link>
+      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/git-github-crash-course/</guid>
+      <description>A beginner-friendly crash course on Git and GitHub for DevOps.</description>
+    </item>
+    <item>
+      <title>Bash Scripting for Beginners</title>
+      <link>http://localhost:1313/posts/bash-scripting-for-beginners/</link>
+      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/bash-scripting-for-beginners/</guid>
+      <description>Learn Bash scripting fundamentals to automate your DevOps workflows.</description>
+    </item>
+    <item>
+      <title>Docker for Absolute Beginners</title>
+      <link>http://localhost:1313/posts/docker-for-beginners/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/docker-for-beginners/</guid>
+      <description>A beginner&amp;#39;s guide to Docker containers, images, and Docker Compose.</description>
+    </item>
+    <item>
+      <title>Cloud Computing Fundamentals</title>
+      <link>http://localhost:1313/posts/cloud-computing-fundamentals/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cloud-computing-fundamentals/</guid>
+      <description>A beginner&amp;#39;s guide to cloud computing concepts for DevOps.</description>
+    </item>
+    <item>
+      <title>CI/CD with GitHub Actions</title>
+      <link>http://localhost:1313/posts/cicd-with-github-actions/</link>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cicd-with-github-actions/</guid>
+      <description>A hands-on intro to CI/CD pipelines with GitHub Actions.</description>
+    </item>
+    <item>
+      <title>Terraform for Beginners</title>
+      <link>http://localhost:1313/posts/terraform-for-beginners/</link>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/terraform-for-beginners/</guid>
+      <description>An introduction to Infrastructure as Code using Terraform.</description>
+    </item>
+    <item>
+      <title>Kubernetes 101</title>
+      <link>http://localhost:1313/posts/kubernetes-101/</link>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kubernetes-101/</guid>
+      <description>A beginner&amp;#39;s introduction to Kubernetes container orchestration.</description>
+    </item>
+    <item>
+      <title>Monitoring with Prometheus &amp; Grafana</title>
+      <link>http://localhost:1313/posts/monitoring-prometheus-grafana/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/monitoring-prometheus-grafana/</guid>
+      <description>A beginner&amp;#39;s guide to monitoring and observability with Prometheus and Grafana.</description>
+    </item>
+    <item>
+      <title>Essential DevOps Tools</title>
+      <link>http://localhost:1313/tools/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/</guid>
+      <description>A curated toolbox of the most important DevOps tools and what each one is for.</description>
+    </item>
+    <item>
+      <title>The DevOps Roadmap for Beginners</title>
+      <link>http://localhost:1313/roadmap/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/roadmap/</guid>
+      <description>A step-by-step path from absolute beginner to job-ready DevOps engineer.</description>
+    </item>
+    <item>
+      <title>About DevOps Adda</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>What DevOps Adda is, who it&amp;rsquo;s for, and how to get the most out of it.</description>
+    </item>
   </channel>
 </rss>

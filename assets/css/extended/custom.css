@@ -1,0 +1,52 @@
+/* DevOps Adda custom polish for PaperMod */
+
+:root {
+    --radius: 10px;
+}
+
+/* Slightly punchier brand title */
+.logo a {
+    font-weight: 700;
+}
+
+/* Make the home intro feel more welcoming */
+.home-info .entry-content {
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+/* Card-like post entries with a subtle lift on hover */
+.post-entry {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.post-entry:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+/* Tidy tables used heavily in tutorials */
+table {
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+th {
+    background: var(--code-bg);
+}
+
+/* Make tag pills a touch friendlier */
+.post-tags li a,
+.terms-tags li a {
+    border-radius: 999px;
+}
+
+/* Blockquotes as friendly call-outs */
+blockquote {
+    border-inline-start: 4px solid var(--primary);
+    background: var(--code-bg);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    padding: 0.6rem 1rem;
+}

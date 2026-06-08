@@ -3,28 +3,132 @@ languageCode = 'en-us'
 title = 'DevOps Adda'
 theme = 'PaperMod'
 
+# Pagination: posts per page
+[pagination]
+    pagerSize = 8
+
+# Enable emoji support in content
+enableEmoji = true
+enableRobotsTXT = true
+
+# Taxonomies for organising tutorials
+[taxonomies]
+    category = 'categories'
+    tag = 'tags'
+    series = 'series'
+
+# Output formats so the JSON search index is generated
+[outputs]
+    home = ['HTML', 'RSS', 'JSON']
+
 [params]
+    env = 'production'
+    description = 'DevOps Adda is a beginner-friendly hub to learn Cloud, Linux, Docker, Kubernetes, CI/CD, Terraform and everything DevOps with hands-on tutorials.'
+    keywords = ['DevOps', 'Cloud', 'CI/CD', 'Docker', 'Kubernetes', 'Terraform', 'AWS', 'Linux', 'Automation']
+    author = 'Sai Kiran Pikili'
     defaultTheme = 'dark' # Options: light, dark, auto
     ShowReadingTime = true
     ShowShareButtons = true
     ShowCodeCopyButtons = true
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    ShowToc = true
+    TocOpen = false
+    ShowWordCount = true
+    ShowRssButtonInSectionTermList = true
+    UseHugoToc = true
+    disableScrollToTop = false
+    comments = false
 
-    # This activates the elegant profile landing page
-    [params.profileMode]
-        enabled = true
-        title = "DevOps Adda 🚀"
-        subtitle = "Your ultimate hub for Cloud, CI/CD, Automation, and all things DevOps. Stay tuned for highly detailed technical blogs, setups, and architecture breakdowns."
-        
-        # Add quick buttons to your social media
+    [params.label]
+        text = 'DevOps Adda'
+        icon = '/favicon.ico'
+        iconHeight = 35
 
-        [[params.profileMode.buttons]]
-            name = "Follow on Medium"
-            url = "https://saikiranpikili.medium.com"
+    # Home page intro shown above the recent posts feed
+    [params.homeInfoParams]
+        Title = 'Welcome to DevOps Adda 🚀'
+        Content = """
+Your friendly launchpad into the world of **DevOps**.
 
-        [[params.profileMode.buttons]]
-            name = "Follow on LinkedIn"
-            url = "https://linkedin.com/in/saikiranpikili"
+Whether you are writing your first shell script or wiring up your first CI/CD pipeline, this is the place to learn by doing. We break down Linux, Git, Docker, Kubernetes, Terraform, the cloud, and automation into bite-sized, hands-on tutorials.
 
-        [[params.profileMode.buttons]]
-            name = "My GitHub Profile"
-            url = "https://github.com/pikilisaikiran"
+👉 New here? Start with the **[DevOps Roadmap](roadmap/)** to find your path.
+"""
+
+    # Social icons shown on the home page and footer
+    [[params.socialIcons]]
+        name = 'github'
+        url = 'https://github.com/pikilisaikiran'
+    [[params.socialIcons]]
+        name = 'linkedin'
+        url = 'https://linkedin.com/in/saikiranpikili'
+    [[params.socialIcons]]
+        name = 'medium'
+        url = 'https://saikiranpikili.medium.com'
+    [[params.socialIcons]]
+        name = 'rss'
+        url = 'index.xml'
+
+    # Search (Fuse.js) configuration
+    [params.fuseOpts]
+        isCaseSensitive = false
+        shouldSort = true
+        location = 0
+        distance = 1000
+        threshold = 0.4
+        minMatchCharLength = 0
+        keys = ['title', 'permalink', 'summary', 'content']
+
+    [params.assets]
+        disableHLJS = false
+        favicon = '/favicon.ico'
+
+# Top navigation menu
+[menu]
+    [[menu.main]]
+        identifier = 'roadmap'
+        name = 'Roadmap'
+        url = '/roadmap/'
+        weight = 10
+    [[menu.main]]
+        identifier = 'tutorials'
+        name = 'Tutorials'
+        url = '/posts/'
+        weight = 20
+    [[menu.main]]
+        identifier = 'categories'
+        name = 'Categories'
+        url = '/categories/'
+        weight = 30
+    [[menu.main]]
+        identifier = 'tools'
+        name = 'Tools'
+        url = '/tools/'
+        weight = 40
+    [[menu.main]]
+        identifier = 'tags'
+        name = 'Tags'
+        url = '/tags/'
+        weight = 50
+    [[menu.main]]
+        identifier = 'about'
+        name = 'About'
+        url = '/about/'
+        weight = 60
+    [[menu.main]]
+        identifier = 'search'
+        name = '🔍'
+        url = '/search/'
+        weight = 70
+
+# Syntax highlighting
+[markup]
+    [markup.highlight]
+        noClasses = false
+        codeFences = true
+        guessSyntax = true
+        lineNos = false
+        style = 'monokai'
+    [markup.goldmark.renderer]
+        unsafe = true
